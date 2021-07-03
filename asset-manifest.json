@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/moviedb-react/static/css/main.b02a1439.chunk.css",
+    "main.js": "/moviedb-react/static/js/main.5b876296.chunk.js",
+    "main.js.map": "/moviedb-react/static/js/main.5b876296.chunk.js.map",
+    "runtime-main.js": "/moviedb-react/static/js/runtime-main.342ebcb5.js",
+    "runtime-main.js.map": "/moviedb-react/static/js/runtime-main.342ebcb5.js.map",
+    "static/css/2.471201eb.chunk.css": "/moviedb-react/static/css/2.471201eb.chunk.css",
+    "static/js/2.00d2b50c.chunk.js": "/moviedb-react/static/js/2.00d2b50c.chunk.js",
+    "static/js/2.00d2b50c.chunk.js.map": "/moviedb-react/static/js/2.00d2b50c.chunk.js.map",
+    "static/js/3.0caf8ddc.chunk.js": "/moviedb-react/static/js/3.0caf8ddc.chunk.js",
+    "static/js/3.0caf8ddc.chunk.js.map": "/moviedb-react/static/js/3.0caf8ddc.chunk.js.map",
+    "index.html": "/moviedb-react/index.html",
+    "static/css/2.471201eb.chunk.css.map": "/moviedb-react/static/css/2.471201eb.chunk.css.map",
+    "static/css/main.b02a1439.chunk.css.map": "/moviedb-react/static/css/main.b02a1439.chunk.css.map",
+    "static/js/2.00d2b50c.chunk.js.LICENSE.txt": "/moviedb-react/static/js/2.00d2b50c.chunk.js.LICENSE.txt",
+    "static/media/slick-theme.css": "/moviedb-react/static/media/slick.c94f7671.ttf",
+    "static/media/sprite.082130c3.svg": "/moviedb-react/static/media/sprite.082130c3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.342ebcb5.js",
+    "static/css/2.471201eb.chunk.css",
+    "static/js/2.00d2b50c.chunk.js",
+    "static/css/main.b02a1439.chunk.css",
+    "static/js/main.5b876296.chunk.js"
+  ]
+}
