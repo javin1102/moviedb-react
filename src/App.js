@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+//26e53c79e6035b58b0922736b9a96231
+//https://api.themoviedb.org/3/movie/550?api_key=26e53c79e6035b58b0922736b9a96231
+//https://image.tmdb.org/t/p/original/[poster_path]
 
+import { Route, Switch, BrowserRouter } from "react-router-dom";
+import FavouritePage from "./pages/FavouritePage";
+import HomePage from "./pages/HomePage";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Switch>
+        <Route path="/" exact>
+          <HomePage />
+        </Route>
+        <Route path="/favourite">
+          <FavouritePage />
+        </Route>
+      </Switch>
+    </BrowserRouter>
   );
 }
 

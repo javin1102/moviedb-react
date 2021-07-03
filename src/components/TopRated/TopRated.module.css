@@ -1,0 +1,18 @@
+.container {
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.596),
+    #43434385 74%
+  );
+
+  min-height: 30rem;
+  position: relative;
+  width: 100vw;
+  min-height: 80vh;
+  padding: 3rem 0;
+}
+.container h3 {
+  color: white;
+  font-size: 2rem;
+  margin: 0rem 3rem;
+}

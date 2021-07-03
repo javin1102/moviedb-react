@@ -1,0 +1,73 @@
+.card-slider {
+  margin-top: 7.5rem;
+  padding: 0 3rem;
+}
+.card-slider .slick-prev,
+.card-slider .slick-next {
+  position: absolute;
+  top: 40%;
+  z-index: 1;
+  margin: 0 1rem;
+  transform: scale(150%);
+}
+
+.card-slider .slick-next {
+  margin-right: 5.5rem;
+}
+
+.card-slider .slick-prev {
+  margin-left: 4rem;
+}
+.card-slider .slick-dots li {
+  margin: 0;
+  transform: scale(150%);
+}
+
+.card-slider .slick-dots {
+  bottom: -7vh;
+  transform: translateX(-3%);
+}
+
+@media only screen and (max-width: 700px) {
+  .card-slider .slick-prev,
+  .card-slider .slick-next {
+    transform: scale(100%);
+  }
+
+  .card-slider .slick-dots li button:before {
+    transform: scale(100%);
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .card-slider .slick-prev,
+  .card-slider .slick-next {
+    top: 40%;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .card-slider .slick-prev,
+  .card-slider .slick-next {
+    transform: scale(300%);
+  }
+  .card-slider .slick-dots li {
+    margin: 0 0.5rem;
+    transform: scale(350%);
+  }
+
+  .card-slider .slick-next {
+    margin-right: 4.5rem;
+  }
+}
+
+@media only screen and (min-width: 2100px) {
+  .card-slider .slick-prev,
+  .card-slider .slick-next {
+    transform: scale(400%);
+  }
+  .card-slider .slick-dots li {
+    margin: 0 0.5rem;
+    transform: scale(450%);
+  }
+}

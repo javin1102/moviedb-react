@@ -1,0 +1,87 @@
+.container {
+  width: 95%;
+  height: 100%;
+}
+.container .card {
+  width: inherit;
+  border-radius: 0.7rem;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+
+.extra {
+  position: absolute;
+  top: 85%;
+  right: 1.5rem;
+  transform: translateY(20%);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+  overflow: hidden;
+}
+
+.extra svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: rgba(245, 179, 94, 0.76);
+  text-align: center;
+}
+
+.extra .favourite {
+  fill: rgba(223, 114, 100, 0.671);
+}
+
+.extra svg:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.extra .details:hover {
+  fill: rgb(224, 138, 24);
+}
+
+.card:hover > .extra {
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+}
+
+.extra .favourite:hover {
+  fill: rgba(151, 57, 57, 0.788);
+}
+
+.extra .favourite:active {
+  transform: scale(1.1);
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+p {
+  font-size: 0.8rem;
+  color: white;
+  font-weight: 600;
+  font-family: "Overpass";
+  text-align: center;
+  margin-top: 1.3rem;
+}
+
+@media only screen and (max-width: 1100px) {
+  .extra svg {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .extra svg {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+}
+
+.extra .favouriteActive {
+  fill: rgba(185, 27, 27, 0.918);
+}
