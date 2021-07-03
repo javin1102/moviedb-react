@@ -7,7 +7,7 @@ import FavouritePage from "./pages/FavouritePage";
 import HomePage from "./pages/HomePage";
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route path="/" exact>
           <HomePage />
