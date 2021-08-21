@@ -6,6 +6,7 @@ import { Route, Switch, BrowserRouter } from "react-router-dom";
 import FavouritePage from "./pages/FavouritePage";
 import HomePage from "./pages/HomePage";
 function App() {
+  console.log(process.env.PUBLIC_URL);
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Switch>
