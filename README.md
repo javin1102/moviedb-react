@@ -9,6 +9,7 @@ This website let you see top rated movies, read the synopsis, and add them to fa
 - CSS module
 - redux and redux toolkit
 - react context hooks
+- react-slick
 
 ## Website URL:
 https://javin1102.github.io/moviedb-react/
